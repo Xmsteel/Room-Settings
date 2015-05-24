@@ -1,21 +1,37 @@
 {
-"author": "ureadmyname",
-"colors": {
-"background": "#000000",
-"chat":{
-"ambassador": "#76DF0C",
-"bouncer": "#961CD7",
-"cohost": "#DF450C",
-"residentdj": "#1C79D7",
-"host": "#DAAE1E",
-"manager": "#DF130C",
-"message": ""
-}
-},
-"css": {
-"rule": {
-"#room .room-background"{
-background: url(http://i.imgur.com/vVNoj9h.jpg);}
-}
-}
+        "author": "TomTomWales",
+    "colors": {
+        "background": "#000000",
+        "chat": {
+            "ambassador": "#76DF0C",
+            "bouncer": "#961CD7",
+            "cohost": "#DF450C",
+            "residentdj": "#1C79D7",
+            "host": "#DAAE1E",
+            "manager": "#DF130C",
+            "message": ""
+        }
+     },
+    "css": {
+        "rule": {
+
+        }
+    },
+    "images": {
+        "background": "http://i.imgur.com/vVNoj9h.jpg",
+        "booth": "",
+        "playback": "",
+        "icons": {
+            "bouncer": "",
+            "cohost": "",
+            "host": "",
+            "manager": "",
+            "residentdj": ""
+        }
+    },
+    "rules": {
+        "allowAutorespond": "true",
+        "allowAutowoot": "true",
+	"allowAutojoin": "true"
+    }
 }
