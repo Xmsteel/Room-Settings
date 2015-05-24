@@ -1,8 +1,8 @@
 {
 "author": "ureadmyname",
-"colors": {
+"colors":{
 "background": "",
-"chat": {
+"chat":{
 "ambassador": "",
 "bouncer": "",
 "cohost": "",
@@ -12,17 +12,28 @@
 "message": ""
 }
 },
-"css": {
-"rule": {
-"#room .room-background": {
+"css":{
+"rule":{
+"#room .room-background":{
 background: url(http://i.imgur.com/vVNoj9h.jpg);
 },
-".user-content .header span": {
-color: rgb(255, 25, 255)
-}
+".user-content .header span":{
+color:"rgb(255, 25, 255)"
+},
+"@keyframes fadein, @-moz-keyframes fadein, @-webkit-keyframes fadein, @-ms-keyframes fadein, @-o-keyframes fadein":{
+"from {background-position": "-119px -544px;}",
+"to {background-position": "-130px -555px;}"
+},
+"span.emoji-trollface":{
+"-webkit-animation":"trollslide 1.5s infinite alternate linear",
+"-moz-animation":"trollslide 1.5s infinite alternate linear",
+"-ms-animation":"trollslide 1.5s infinite alternate linear",
+"-o-animation":"trollslide 1.5s infinite alternate linear",
+"animation":"trollslide 1.5s infinite alternate linear"
+},
 }
 },
-"images": {
+"images":{
 "background": "http://i.imgur.com/vVNoj9h.jpg",
 "booth": "",
 "playback": "",
@@ -34,7 +45,7 @@ color: rgb(255, 25, 255)
 "residentdj": ""
 }
 },
-"rules": {
+"rules":{
 "allowAutorespond": "true",
 "allowAutowoot": "true",
 "allowAutojoin": "true"
