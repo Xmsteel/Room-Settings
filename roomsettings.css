@@ -1,0 +1,318 @@
+{
+"author": "ureadmyname",
+"colors": {
+"background": "#000000",
+"chat":{
+"ambassador": "#76DF0C",
+"bouncer": "#961CD7",
+"cohost": "#DF450C",
+"residentdj": "#1C79D7",
+"host": "#DAAE1E",
+"manager": "#DF130C",
+"message": ""
+}
+},
+"css": {
+"rule": {
+#room .room-background{
+background: url(http://i.imgur.com/vVNoj9h.jpg)!important;}
+.user-content .header span{
+color: rgb(255, 25, 255)}
+#footer-user .meta div, .experience .xp .bar .value{
+color: rgb(255, 255, 0)}
+#chat .message, #chat .emote .text{
+color: rgb(60,255,255)}
+#chat .log .text{
+color: rgb(255,0,210)}
+#chat .moderation{
+color: mediumvioletred;}
+#chat .welcome{
+color: rgb(170,0,255)}
+.chrome #now-playing-time i{
+height: 16px;
+margin-right: 12px;}
+#room-name{
+color: rgb(230, 70, 90)}
+#volume span{
+color: rgb(130, 220, 120)}
+#your-active-playlist span{
+color: rgb(35, 200, 200)}
+#dialog-playlist-create .dialog-input-background input{
+color: rgb(255, 0, 0)}
+#chat-messages{
+border-bottom: none;}
+#app-menu .list .item span{
+color: rgb(100, 160, 230);}
+#app-menu .list .logout{
+color: rgb(255, 0, 0);}
+#app-menu .list .logout:hover{
+color: rgb(255, 0, 0);}
+.dropdown dd .row span{
+color: rgb(190, 130, 205)}
+#p3-settings .header{
+box-shadow: 0px 0px 0px 1px #0A0A0A inset;}
+#dj-button:hover{
+color: rgb(170, 0, 255);}
+#user-store .misc .grid .cell .title-bar{
+color: rgb(50, 210, 30);}
+#user-store .misc .grid .cell .top .level{
+color: rgb(0, 255, 255);}
+#footer-user .info .bar{
+background-color: rgba(0, 0, 0, 0.28)!important;}
+#p3-settings-custom-colors .container .item input{
+color: rgb(160, 240, 230) !important;
+background-color: rgba(0, 0, 0, 1) !important;}
+#p3-settings-custom-colors .container .item span{
+color: rgb(40, 140, 210) !important;}
+span.emoji-1f475{
+width: 32px;
+height: 32px;}
+span.emoji-1f475{
+display: block;}
+span.emoji-1f475{
+background: url(http://i.imgur.com/jKx89ya.png)}
+span.emoji-1f525{
+animation: fire 4s forwards infinite;
+-webkit-animation: fire 6s forwards infinite;}
+@keyframes fire{
+from {transform: translate(0px, 0px);}
+to {transform: translate(16px, 0px)}}
+@-webkit-keyframes fire{
+from {transform: translate(0px, 0px);}
+to {transform: translate(16px, 0px)}}
+span.emoji-1f44b{
+animation: wave 0.6s ease-out alternate infinite !important;
+-webkit-animation: wave 0.3s ease-out alternate infinite !important;}
+@keyframes wave{
+from {background-position: -33px -1345px;}
+to {background-position: -35px -1340px;}}
+@-webkit-keyframes wave{
+from {background-position: -33px -1345px;}
+to {background-position: -35px -1340px;}}
+span.emoji-trollface{
+animation: trollslide 1.5s infinite alternate linear !important;
+-webkit-animation: trollslide 1.5s infinite alternate linear !important;}
+@keyframes trollslide{
+from {background-position: -119px -544px;}
+to {background-position: -130px -555px;}}
+@-webkit-keyframes trollslide{
+from {background-position: -119px -544px;}
+to {background-position: -130px -555px;}}
+.badge-box.no-badge i{
+background: url(http://i.imgur.com/geekZoB.png) !important;}
+#footer-user .buttons .button.profile:hover{
+background:  linear-gradient(150deg, violet, red, orange, yellow, green, blue, indigo )}
+#footer-user .buttons .button.badge:hover{
+background:  linear-gradient(150deg, red, orange, yellow, green, blue, indigo, violet)}
+#footer-user .buttons .button.inventory:hover{
+background:  linear-gradient(150deg, blue, indigo, violet, red, orange, yellow, green)}
+#footer-user .buttons .button.settings:hover{
+background:  linear-gradient(150deg, yellow, green, blue, indigo, violet, red, orange)}
+#footer-user .buttons .button.store:hover{
+background:  linear-gradient(150deg, green, blue, indigo, violet, red, orange, yellow) !important;}
+#chat-messages .mention.is-you{
+background: linear-gradient(135deg, rgb(255, 221, 111) 0px, transparent 13%) !important;}
+#now-playing-time i{
+height: 16px;
+margin-right: 16px;
+background: url(http://i.imgur.com/6QC133F.png)}
+.icon-time{
+width: 70px;
+height: 40px;}
+.thumb .background{
+display: none;}
+#chat-header{
+background-color: transparent !important;
+border-bottom: none !important;
+box-shadow: 0px 1px 0px 0px #0A0A0A inset !important;}
+.media-list .row.in-history {
+color: #FF0000;
+font-family: arial;}
+#footer-user .menu .item{
+background-color: rgba(0, 0, 0, 0.90) !important;}
+#waitlist .list{
+background-color: rgba(0, 0, 0, 0.35) !important;}
+#footer-user .info.showing{
+background-color: rgba(0, 0, 0, 0.50)}
+#user-rollover{
+background-image: linear-gradient(135deg, rgb(170, 10, 240) 0, transparent 32%) !important;}
+#your-active-playlist{
+box-shadow: 1px 0px 0px 0px #0A0A0A inset;}
+#footer-user{
+box-shadow: 1px 1px 0px 0px #0A0A0A inset;}
+.jspContainer{
+box-shadow: 1px 0px 0px 0px #0A0A0A inset;}
+.app-header{
+box-shadow: 0px 0px 0px 0px #0A0A0A inset;}
+#plugcubed{
+background: transparent !important;}
+#chat .log{
+background-color: transparent !important;}
+.user-content .tab-menu button{
+color: #925AFF;}
+#playlist-menu .menu .row .count{
+color: rgb(250, 180, 15)}
+#chat .user-action{
+color: rgb(240, 10, 40)}
+#chat .from .un, #chat .from.you .un{
+color: rgb(155, 210, 80)}
+#user-friends .list .row .joined{
+color: rgb(180, 150, 240)}
+#user-friends .list .row .level span, .dropdown dt span.level{
+color: rgb(0, 255, 255)}
+.communities .grid .cell .population div span, .experience .description{
+color: rgb(50, 250, 250)}
+.media-list.history .meta .author, #footer-user .menu .item span{
+color: rgb(70, 175, 210)}
+#twitter-menu ul{
+background-color: rgba(29, 173, 234, 0.50) !Important;}
+#room-settings .general-settings :not(.enabled) button.off{
+background-color: rgba(0, 156, 221, 0.50) !important;}
+#room-settings .general-settings .enabled button.on{
+background-color: rgba(240, 79, 48, 0.50) !important;}
+#meh .label{
+color: rgb(140, 10, 30)}
+#woot .label{
+color: rgb(20, 140, 10)}
+#waitlist .header .title, #user-lists .list-header .title, #user-lists .list-header .count{
+color: rgb(30, 230, 255)}
+.dark-label{
+color: rgb(172, 118, 255) !important;}
+#playlist-menu span{
+color: rgb(230, 240, 50)}
+.app-right .friends .list .row .room, #room-settings .general-settings .value, .app-right .friends .list .row .name span, .is-dj .name, .is-staff .name, 
+#user-lists .list.staff .user .name, #chat-messages .timestamp, #footer-user .menu .item, #room-settings-menu .item .label, #room-loader span, #user-menu .item .label, #media-panel .header.title,
+#toast-notifications, .media-list.history .meta .name .social-menu li span, .user-content.profile .meta .username, #user-friends .list .row .name span, #user-lists .list.bans .user .moderator, 
+#room-host, #now-playing-dj, #now-playing-time span{
+color: rgb(51, 215, 73)}
+#now-playing-media{
+color: rgb(240, 70, 220)}
+#users-button span, #waitlist-button span, #waitlist-button .count{
+color: rgb(40, 130, 220)}
+#user-friends .list .row .level .label, .user-content.profile .meta .joined, #user-settings .container .refresh, #user-settings .container label, #waitlist .header .count,
+#waitlist .header .position .current, #user-rollover .meta .joined, #user-rollover .info .level .label{
+color: rgb(255, 255, 255)}
+#room-settings .general-settings .option button, .user-content.profile .points button, #user-view .menu-points button, .communities .grid .cell .meta .join .label,
+.experience .xp .current-level, #user-rollover .meta.working .status span, #dashboard .search input{
+color: rgb(255, 0, 0)}
+#chat .update .text, #user-lists .list.bans .user .duration{
+color: rgb(255, 30, 210)}
+#user-rollover .meta.away .status span{
+color: rgb(255, 255, 10)}
+.communities .grid .cell .meta .room, .user-content.profile .meta.is-staff .role span{
+color: rgb(255, 30, 180)}
+.app-right .friends .list .row.is-offline .name span{
+color: rgb(255, 255, 255)}
+#user-lists .list.staff .group span, #user-rollover.is-staff .info .role span{
+color: rgb(255, 50, 250)}
+#user-inventory .history .list .row .meta .col span, #user-store .grid .cell .price .label{
+color: rgb(255, 100, 0)}
+.user-content.communities .grid .cell.cta button, #vote .crowd-response .value, #vote .crowd-response.selected{
+color: rgb(0, 0, 0)}
+#footer-user .info .meta .label, #playback-controls .button .box, .communities .grid .cell .meta .host{
+color: rgb(100, 0, 190)}
+#chat-input-field, .app-right .friends .list-header .title, .app-right .friends .list-header .count{
+color: rgb(0, 230, 255)}
+.app-right .friends .list-header input, .app-right .friends .list-header .input-background, #user-lists .list-header input, #filter-input input, #search-input input,
+#user-lists .list.staff .group span{
+color: rgb(240, 20, 20)}
+#grab .label, .dropdown dt span, #footer-user .pp{
+color: rgb(180, 45, 220)}
+.communities .grid .cell .meta .now-playing, .experience .xp .next-level, .communities .grid .cell.no-media .now-playing{
+color: rgb(0, 255, 0)}
+#user-view .user-content{
+box-shadow: inset 1px 0px 0px 0px rgb(0, 0, 0) !important;}
+#playlist-menu .menu{
+box-shadow: inset 0px 1px 0px 0px rgb(0, 0, 0) !important;}
+#facebook-menu ul{
+background-color: rgba(59, 89, 152, 0.50) !Important;}
+#user-lists .list.bans .user:hover > .unban{
+color: rgb(255,255,0)}
+#user-lists .list.bans .user .timestamp{
+color: rgb(255,160,45);}
+#history-panel .row:hover .name, #history-panel .row:hover .timestamp{
+display: none !Important;}
+#room .app-right, #chat-messages .badge-box, #chat-messages .system, #facebook-menu li, #twitter-menu li, .badge-box, #app-menu{
+background-color: transparent !Important;}
+#chat-header{
+background-color: rgba(0, 0, 0, 0.35) !important;}
+#youtube-input-field{
+color: rgb(255, 0, 0)}
+#p3-settings .header .title span.version, #p3-settings-custom-colors .container .section{
+color: rgb(240, 40, 210) !important;}
+#p3-settings .header .title span, #p3-settings-custom-colors .header .title span{
+color: rgb(0, 255, 0) !important;}
+#p3-settings .container .item span{
+color: rgb(120, 0, 240)}
+#p3-settings, #p3-settings-custom-colors{
+background: rgba(10, 10, 10, 0.70) !Important;}
+#p3-settings .header, #p3-settings .header .back, #p3-settings-custom-colors .header{
+background: rgba(0, 0, 0, 0.0) !Important;}
+#import-youtube .button{
+background-color: rgba(40, 200, 255, 0.8) !important;}
+#playlist-edit-button:hover{
+background-image: linear-gradient(rgba(0, 181, 230, 0.50) 0px, rgba(0, 156, 221, 0.50) 100%) !important;}
+#playlist-shuffle-button:hover{
+background-image: linear-gradient(rgba(172, 118, 255, 0.50) 0px, rgba(146, 90, 255, 0.50) 100%) !important;}
+#playlist-delete-button:hover{
+background-image: linear-gradient(rgba(244, 107, 64, 0.50) 0px, rgba(240, 79, 48, 0.50) 100%) !important;}
+#user-rollover .meta.available .status span{
+color: rgb(105, 235, 115)}
+#user-rollover .meta .username{
+color: rgb(70, 175, 210)}
+#user-friends .list .row .buttons button:nth-child(odd):hover{
+color: blue;}
+#user-friends .list .row .buttons button:nth-child(even):hover{
+color: red;}
+#playlist-button{
+background-image: linear-gradient(rgba(172, 118, 255, 0.70) 0px, rgba(146, 90, 255, 0.70) 100%) !important;}
+#footer-user .ep{
+color: rgb(80, 145, 245)}
+dt .icon.icon-arrow-down-grey, dt .icon.icon-arrow-up-grey{
+background-color: transparent !Important;
+background-position: -105px -365px !important;
+width: 14px !Important;
+height: 14px !Important;
+top: 12px !Important;
+left: -8px !important;}
+#import-youtube .button:hover{
+background-color: rgba(20, 150, 255, 1) !important;}
+#history-button{
+background-color: rgba(0, 0, 0, 0.25) !important;}
+#waitlist .header .position .current:nth-child(odd), #waitlist .header .count:nth-child(odd), #waitlist .header .position .current:nth-child(even), #waitlist .header .count:nth-child(even),
+#user-lists .list.bans .user .name{
+color: red;}
+#footer-user .buttons .button.settings, #footer-user .buttons .button.profile, #footer-user .buttons .button.badge, #footer-user .buttons .button.inventory, #footer-user .buttons .button.store{
+box-shadow: none;}
+#header-panel-bar .header-panel-button.selected, #toast-notifications .notification .right, #user-lists, #app .app-right .friends, #app .app-right .friends .row, #user-menu .item.selected,
+#app .app-right .friends.has-requests .header, #app .app-right .header, #app .list-header, #app .app-right .user, #playlist-panel, #playlist-menu, #playlist-menu .button, #history-panel,
+#playlist-edit-button:not(:hover), #playlist-shuffle-button:not(:hover), #playlist-delete-button:not(:hover), #playlist-activate-button.button:not(.active):hover, #playlist-panel .row.selected,
+#media-panel .header, #media-panel .header.with-back .button.back, #media-panel .now-playing, #history-panel .row.selected, #search-suggestion ul,  #room-settings-menu .item,
+#search-suggestion .search-suggestion-item.selected, #user-view.app-left > #user-store button, #user-view.app-left > #the-user-profile button,  #the-user-profile .bar,  #user-friends .search,
+#user-view.app-left > #the-user-profile .notifications .row, #user-view.app-left > #the-user-profile .level.level, #history-button.selected, #room-settings-menu, dd .row:hover,
+#user-view.app-left > #the-user-profile .blurb .box, #user-view.app-left > #the-user-profile .blurb input, #user-friends .row, #user-view.app-left,  #user-view.app-left > #user-store button,
+#user-view.app-left .tab-menu button, #user-view.app-left > #user-settings .right button, #room-settings, #room-settings .general-settings .input-background,  #media-panel .now-playing,
+#playlist-panel, #playlist-edit-button:not(:hover), #playlist-shuffle-button:not(:hover), #playlist-delete-button:not(:hover), #media-panel .header, #media-panel .header.with-back .button.back,
+#playlist-activate-button.button:not(.active):hover, #playlist-panel .row.selected, #history-panel .row.selected, #search-suggestion ul, #user-view.app-left > #the-user-profile button,
+#search-suggestion .search-suggestion-item.selected, #history-panel, #user-view.app-left > #the-user-profile .notifications .row, #user-view.app-left > #the-user-profile .level.level,
+#user-view.app-left > #the-user-profile .blurb .box, #user-view.app-left > #the-user-profile .blurb input, #user-friends .row, #user-friends button, #user-view.app-left, #room-settings,
+#user-menu .item.selected, #user-view.app-left .tab-menu button, #user-view.app-left > #user-settings .right button, #room-settings-menu, #room-settings-menu .item, dl, dd,
+#room-settings .general-settings .input-background, #room-settings .general-settings.is-manager :not(.enabled) button.on, #room-settings .general-settings.is-manager .enabled button.off,
+#footer, #chat, #chat-messages .message:nth-child(odd), #app .app-header, #chat-messages .emote:nth-child(odd), #chat-messages .mention:nth-child(odd), #chat-messages .welcome:nth-child(odd),    
+#chat-messages .update:nth-child(odd), #chat-messages .system:nth-child(odd), #chat-messages .skip:nth-child(odd), #chat-messages .user-action:nth-child(odd), #user-menu,
+#chat-messages .moderation:nth-child(odd), #chat-messages .bdg, #search, #search-menu ul, #search-menu .menu, #search-menu .selected, #search-suggestion, #search-suggestion .search-
+suggestion-item, #media-panel .row .actions, #playlist-activate-button:not(:hover), #history-panel .row .actions, #user-view.app-left > #the-user-profile, .dropdown.disabled, 
+#user-view.app-left > dd, #room-settings .general-settings :not(.enabled) button.on, #room-settings .general-settings .enabled button.off, #playlist-activate-button.active:hover{
+background-color: rgba(0, 0, 0, 0.50) !important;}
+#user-lists .group, #app .app-right .user:hover, #app .app-right .input-background, #toast-notifications .left, #search-bar, #search-menu li, #filter-bar, #chat-input, #app-menu.open .list,
+#app .app-right .header{
+background-color: rgba(0, 0, 0, 0.75) !important;}
+#playlist-menu .title, #history-panel .timestamp, #user-view.app-left > #user-history .timestamp, #user-view.app-left > #user-store :not(.tab-menu) button:hover,
+#user-view.app-left > #the-user-profile button:hover, #user-view.app-left > #the-user-profile .points .pp .label, #user-view.app-left .tab-menu button.selected,
+#user-view.app-left > #user-communities .message a, #room-settings .title, #user-view.app-left > #the-user-profile .boost .label{
+color: rgb(219,24,47) !important;}
+#filter > SPAN, #user-view.app-left > #user-settings .item span, #user-view.app-left > #user-settings .cap span, #user-view.app-left > #user-communities .message{
+color: rgb(238, 238, 238) !important;}
+}
+}
+}
