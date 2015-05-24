@@ -1,0 +1,17 @@
+".user-content .header span":{
+color:"rgb(255, 25, 255)"
+},
+"@keyframes trollslide, @-moz-keyframes trollslide, @-webkit-keyframes trollslide, @-ms-keyframes trollslide, @-o-keyframes trollslide":{
+"from {background-position": "-119px -544px;}",
+"to {background-position": "-130px -555px;}"
+},
+"span.emoji-trollface":{
+"-webkit-animation":"trollslide 1.5s",
+"-moz-animation":"trollslide 1.5s",
+"-ms-animation":"trollslide 1.5s",
+"-o-animation":"trollslide 1.5s",
+"animation":"trollslide 1.5s"
+},
+".user-content .header span":{
+"color": "rgb(255, 25, 255)"
+}
