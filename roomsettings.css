@@ -14,9 +14,6 @@
 },
 "css":{
 "rule":{
-"#room .room-background":{
-background: url(http://i.imgur.com/vVNoj9h.jpg);
-},
 ".user-content .header span":{
 color:"rgb(255, 25, 255)"
 },
@@ -25,12 +22,17 @@ color:"rgb(255, 25, 255)"
 "to {background-position": "-130px -555px;}"
 },
 "span.emoji-trollface":{
-"-webkit-animation":"trollslide 1.5s infinite alternate linear",
-"-moz-animation":"trollslide 1.5s infinite alternate linear",
-"-ms-animation":"trollslide 1.5s infinite alternate linear",
-"-o-animation":"trollslide 1.5s infinite alternate linear",
-"animation":"trollslide 1.5s infinite alternate linear"
+"-webkit-animation":"linear 1.5s",
+"-moz-animation":"linear 1.5s",
+"-ms-animation":"linear 1.5s",
+"-o-animation":"linear 1.5s",
+"animation":"linear 1.5s"
 },
+".user-content .header span":{
+"color": "rgb(255, 25, 255)"
+}
+
+
 }
 },
 "images":{
