@@ -17,16 +17,16 @@
 ".user-content .header span":{
 color:"rgb(255, 25, 255)"
 },
-"@keyframes fadein, @-moz-keyframes fadein, @-webkit-keyframes fadein, @-ms-keyframes fadein, @-o-keyframes fadein":{
+"@keyframes trollslide, @-moz-keyframes trollslide, @-webkit-keyframes trollslide, @-ms-keyframes trollslide, @-o-keyframes trollslide":{
 "from {background-position": "-119px -544px;}",
 "to {background-position": "-130px -555px;}"
 },
 "span.emoji-trollface":{
-"-webkit-animation":"linear 1.5s",
-"-moz-animation":"linear 1.5s",
-"-ms-animation":"linear 1.5s",
-"-o-animation":"linear 1.5s",
-"animation":"linear 1.5s"
+"-webkit-animation":"trollslide linear 1.5s",
+"-moz-animation":"trollslide linear 1.5s",
+"-ms-animation":"trollslide linear 1.5s",
+"-o-animation":"trollslide linear 1.5s",
+"animation":"trollslide linear 1.5s"
 },
 ".user-content .header span":{
 "color": "rgb(255, 25, 255)"
