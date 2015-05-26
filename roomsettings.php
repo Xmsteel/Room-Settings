@@ -17,10 +17,10 @@
 "#app-header":{
 "background": "linear-gradient(to bottom,rgba(255, 255, 255, 0.25) 0,rgba(0, 0, 0, 0.75) 100%)"
 },
-".user-content .header span"{
+".user-content .header span":{
 "color": "rgb(255, 25, 255)"
 },
-"#store-button": {
+"#store-button":{
 "background": "linear-gradient(to bottom,#FF0000 0,#A00000 100%)"
 }
 
